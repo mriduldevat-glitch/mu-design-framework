@@ -4,7 +4,7 @@ import heroImage from '@/assets/hero-real-estate.jpg';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-primary overflow-hidden">
+    <section className="relative min-h-screen flex items-center bg-primary overflow-hidden pt-32">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -16,7 +16,7 @@ export const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="mu-container relative z-10">
+      <div className="mu-container relative z-10 py-20">
         <div className="max-w-4xl">
           <div className="mb-6">
             <span className="text-yellow text-sm font-semibold tracking-wider uppercase">

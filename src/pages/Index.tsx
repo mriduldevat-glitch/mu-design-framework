@@ -1,3 +1,4 @@
+import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { WhyRealEstate } from '@/components/WhyRealEstate';
 import { Returns } from '@/components/Returns';
@@ -9,6 +10,7 @@ import { FinalCTA } from '@/components/FinalCTA';
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Header />
       <Hero />
       <WhyRealEstate />
       <Returns />
