@@ -26,7 +26,7 @@ export const Returns = () => {
         {/* Performance Chart */}
         <div className="mb-20">
           <div className="max-w-3xl mb-12">
-            <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-[130%]">
+            <h2 className="text-5xl md:text-6xl font-medium text-white mb-6 leading-[130%]">
               Real Estate Delivers
               <span className="gradient-text"> Consistent Returns</span>
             </h2>
@@ -36,11 +36,11 @@ export const Returns = () => {
           </div>
 
           {/* Simple Bar Chart */}
-          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 md:p-12">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 md:p-12 hidden lg:block">
             <div className="flex items-end justify-between gap-4 h-80">
               {performanceData.map((data, index) => (
                 <div key={index} className="flex-1 flex flex-col items-center justify-end gap-3">
-                  <div className="text-white font-semibold text-sm md:text-base">
+                  <div className="text-white font-medium text-sm md:text-base">
                     {data.label}
                   </div>
                   <div 
@@ -64,7 +64,7 @@ export const Returns = () => {
 
         {/* Comparison Table */}
         <div>
-          <h3 className="text-3xl md:text-4xl font-bold text-white mb-8">
+          <h3 className="text-3xl md:text-4xl font-medium text-white mb-8">
             How Real Estate Compares
           </h3>
           
@@ -85,7 +85,7 @@ export const Returns = () => {
                       key={index} 
                       className={`border-t border-border ${index === 0 ? 'bg-yellow/10' : ''}`}
                     >
-                      <td className="p-6 font-semibold text-primary">{item.asset}</td>
+                      <td className="p-6 font-medium text-primary">{item.asset}</td>
                       <td className="p-6 text-grey">{item.returns}</td>
                       <td className="p-6 text-grey">{item.stability}</td>
                       <td className="p-6 text-grey">{item.liquidity}</td>

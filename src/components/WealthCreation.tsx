@@ -33,7 +33,7 @@ export const WealthCreation = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-[130%]">
+            <h2 className="text-5xl md:text-6xl font-medium text-white mb-6 leading-[130%]">
               Create Generational
               <span className="gradient-text block">Wealth Through Real Estate</span>
             </h2>
@@ -67,7 +67,7 @@ export const WealthCreation = () => {
                     <strategy.icon className="w-6 h-6 text-yellow" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-white mb-2">
+                    <h3 className="text-xl font-medium text-white mb-2">
                       {strategy.title}
                     </h3>
                     <p className="text-white/70 leading-[160%]">
@@ -83,7 +83,7 @@ export const WealthCreation = () => {
         {/* Bottom Banner */}
         <div className="mt-20 bg-gradient-to-r from-yellow/20 via-yellow/10 to-transparent border border-yellow/20 rounded-xl p-8 md:p-12">
           <div className="max-w-3xl">
-            <h3 className="text-3xl font-bold text-white mb-4">
+            <h3 className="text-3xl font-medium text-white mb-4">
               Start Small, Think Big
             </h3>
             <p className="text-xl text-white/80 leading-[160%]">

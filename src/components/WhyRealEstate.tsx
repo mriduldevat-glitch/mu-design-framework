@@ -28,7 +28,7 @@ export const WhyRealEstate = () => {
     <section className="mu-section bg-white">
       <div className="mu-container">
         <div className="max-w-3xl mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 md:mb-6 leading-[130%]">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium text-primary mb-4 md:mb-6 leading-[130%]">
             Why Real Estate Is Your Path To
             <span className="gradient-text"> Financial Freedom</span>
           </h2>
@@ -47,7 +47,7 @@ export const WhyRealEstate = () => {
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-secondary flex items-center justify-center mb-4 md:mb-6 group-hover:bg-primary/10 transition-colors">
                 <benefit.icon className="w-6 h-6 md:w-8 md:h-8 text-primary" />
               </div>
-              <h3 className="text-lg md:text-2xl font-bold text-primary mb-3 md:mb-4">
+              <h3 className="text-lg md:text-2xl font-medium text-primary mb-3 md:mb-4">
                 {benefit.title}
               </h3>
               <p className="text-sm md:text-base text-grey leading-[160%]">

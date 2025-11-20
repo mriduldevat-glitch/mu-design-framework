@@ -12,7 +12,7 @@ export const FinalCTA = () => {
 
       <div className="mu-container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-[110%]">
+          <h2 className="text-5xl md:text-7xl font-medium text-white mb-6 leading-[110%]">
             Ready To Build Your
             <span className="gradient-text block mt-2">Real Estate Empire?</span>
           </h2>
@@ -45,12 +45,12 @@ export const FinalCTA = () => {
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/15 transition-all duration-300">
               <Phone className="w-8 h-8 text-yellow mb-3 mx-auto" />
               <div className="text-white/70 text-sm mb-2">Call Us</div>
-              <div className="text-white text-xl font-semibold">+91 98765 43210</div>
+              <div className="text-white text-xl font-medium">+91 98765 43210</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/15 transition-all duration-300">
               <Mail className="w-8 h-8 text-yellow mb-3 mx-auto" />
               <div className="text-white/70 text-sm mb-2">Email Us</div>
-              <div className="text-white text-xl font-semibold">realestate@mastersunion.org</div>
+              <div className="text-white text-xl font-medium">realestate@mastersunion.org</div>
             </div>
           </div>
 

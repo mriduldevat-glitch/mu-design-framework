@@ -29,7 +29,7 @@ export const Testimonials = () => {
     <section className="mu-section bg-white">
       <div className="mu-container">
         <div className="max-w-3xl mb-16 text-center mx-auto">
-          <h2 className="text-5xl md:text-6xl font-bold text-primary mb-6 leading-[130%]">
+          <h2 className="text-5xl md:text-6xl font-medium text-primary mb-6 leading-[130%]">
             Success Stories From
             <span className="gradient-text"> Real Investors</span>
           </h2>
@@ -57,7 +57,7 @@ export const Testimonials = () => {
               </p>
 
               {/* Returns Badge */}
-              <div className="inline-block bg-yellow/20 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              <div className="inline-block bg-yellow/20 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
                 {testimonial.returns}
               </div>
 

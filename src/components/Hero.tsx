@@ -19,17 +19,17 @@ export const Hero = () => {
       <div className="mu-container relative z-10 py-12 md:py-20">
         <div className="max-w-4xl">
           <div className="mb-4 md:mb-6">
-            <span className="text-yellow text-xs md:text-sm font-semibold tracking-wider uppercase">
+            <span className="text-yellow text-xs md:text-sm font-medium tracking-wider uppercase">
               Masters Union Real Estate
             </span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-white mb-4 md:mb-6 leading-[110%]">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-medium text-white mb-4 md:mb-6 leading-[110%]">
             Build Wealth Through
             <span className="gradient-text block mt-1 md:mt-2">
               Smart Real Estate
             </span>
-          </h1>
+          </h2>
           
           <p className="text-base md:text-xl lg:text-2xl text-white/90 mb-8 md:mb-12 max-w-2xl leading-[140%]">
             Invest in premium properties across India's fastest-growing cities.

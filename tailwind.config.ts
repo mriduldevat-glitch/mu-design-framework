@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Galano Grotesque', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+        fraunces: ['Fraunces', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
