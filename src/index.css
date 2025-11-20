@@ -84,12 +84,12 @@ All colors MUST be HSL.
   
   /* MU Section Padding */
   .mu-section {
-    padding: 120px 0;
+    padding: 60px 0;
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .mu-section {
-      padding: 60px 0;
+      padding: 120px 0;
     }
   }
 }

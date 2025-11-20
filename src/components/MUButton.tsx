@@ -16,7 +16,7 @@ export const MUButton = ({
   className,
   ...props 
 }: MUButtonProps) => {
-  const baseClasses = "rounded-[54px] px-6 py-3.5 font-semibold text-base leading-[150%] inline-flex items-center justify-center gap-1.5 transition-all duration-300 cursor-pointer";
+  const baseClasses = "rounded-[54px] px-5 py-3 md:px-6 md:py-3.5 font-semibold text-sm md:text-base leading-[150%] inline-flex items-center justify-center gap-1.5 transition-all duration-300 cursor-pointer";
   
   const variantClasses = {
     'white': 'bg-white text-primary border border-border hover:bg-secondary',
