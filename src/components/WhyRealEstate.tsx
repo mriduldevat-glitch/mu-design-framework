@@ -30,7 +30,7 @@ export const WhyRealEstate = () => {
         <div className="max-w-3xl mb-12 md:mb-16">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium text-primary mb-4 md:mb-6 leading-[130%]">
             Why Real Estate Is Your Path To
-            <span className="gradient-text"> Financial Freedom</span>
+            <span className="gradient-text block mt-1 md:mt-2">Financial Freedom</span>
           </h2>
           <p className="text-base md:text-xl text-grey leading-[160%]">
             Real estate isn't just an investment—it's a proven wealth-building strategy 

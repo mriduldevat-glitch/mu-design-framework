@@ -29,9 +29,9 @@ export const Testimonials = () => {
     <section className="mu-section bg-white">
       <div className="mu-container">
         <div className="max-w-3xl mb-16 text-center mx-auto">
-          <h2 className="text-5xl md:text-6xl font-medium text-primary mb-6 leading-[130%]">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium text-primary mb-4 md:mb-6 leading-[130%]">
             Success Stories From
-            <span className="gradient-text"> Real Investors</span>
+            <span className="gradient-text block mt-1 md:mt-2">Real Investors</span>
           </h2>
           <p className="text-xl text-grey leading-[160%]">
             Real people, real returns. See how our investors have built substantial wealth through strategic real estate investments.

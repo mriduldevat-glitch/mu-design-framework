@@ -26,9 +26,9 @@ export const Returns = () => {
         {/* Performance Chart */}
         <div className="mb-20">
           <div className="max-w-3xl mb-12">
-            <h2 className="text-5xl md:text-6xl font-medium text-white mb-6 leading-[130%]">
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium text-white mb-4 md:mb-6 leading-[130%]">
               Real Estate Delivers
-              <span className="gradient-text"> Consistent Returns</span>
+              <span className="gradient-text block mt-1 md:mt-2">Consistent Returns</span>
             </h2>
             <p className="text-xl text-white/80 leading-[160%]">
               Track record of steady appreciation: ₹1 Crore investment growing to ₹1.88 Crore in just 5 years

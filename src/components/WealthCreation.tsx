@@ -33,9 +33,9 @@ export const WealthCreation = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-5xl md:text-6xl font-medium text-white mb-6 leading-[130%]">
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium text-white mb-4 md:mb-6 leading-[130%]">
               Create Generational
-              <span className="gradient-text block">Wealth Through Real Estate</span>
+              <span className="gradient-text block mt-1 md:mt-2">Wealth Through Real Estate</span>
             </h2>
             <p className="text-xl text-white/80 mb-8 leading-[160%]">
               Real estate is more than just property ownership—it's a comprehensive 
