@@ -12,9 +12,9 @@ export const FinalCTA = () => {
 
       <div className="mu-container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl md:text-7xl font-medium text-white mb-6 leading-[110%]">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-medium text-white mb-4 md:mb-6 leading-[110%]">
             Ready To Build Your
-            <span className="gradient-text block mt-2">Real Estate Empire?</span>
+            <span className="gradient-text block mt-1 md:mt-2">Real Estate Empire?</span>
           </h2>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-[140%]">
