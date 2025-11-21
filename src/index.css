@@ -100,6 +100,7 @@ All colors MUST be HSL.
   /* MU Gradient Text */
   .gradient-text {
     font-family: 'Fraunces', serif;
+    font-size: 62px;
     font-weight: 500;
     font-style: italic;
     background: linear-gradient(102deg, hsl(var(--gradient-start)) 0%, hsl(var(--gradient-mid)) 50%, hsl(var(--gradient-end)) 100%);
@@ -113,6 +114,9 @@ All colors MUST be HSL.
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 24px;
+  }
+  .text-4xl{
+    font-size: 60px !important;
   }
   
   /* MU Section Padding */
