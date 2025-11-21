@@ -9,15 +9,7 @@ All colors MUST be HSL.
 /* Galano Grotesque Font Family */
 @font-face {
   font-family: 'Galano Grotesque';
-  src: url('https://files.mastersunion.link/resources/fonts/GalanoGrotesqueThin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Galano Grotesque';
-  src: url('https://files.mastersunion.link/resources/fonts/GalanoGrotesqueRegular.otf') format('opentype');
+  src: url('/fonts/GalanoGrotesqueRegular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -25,49 +17,17 @@ All colors MUST be HSL.
 
 @font-face {
   font-family: 'Galano Grotesque';
-  src: url('https://files.mastersunion.link/resources/fonts/GalanoGrotesqueMedium.otf') format('opentype');
+  src: url('/fonts/GalanoGrotesqueMedium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Galano Grotesque';
-  src: url('https://files.mastersunion.link/resources/fonts/GalanoGrotesqueSemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Galano Grotesque';
-  src: url('https://files.mastersunion.link/resources/fonts/GalanoGrotesqueBold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Galano Grotesque';
-  src: url('https://files.mastersunion.link/resources/fonts/GalanoGrotesqueExtraBold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Fraunces SemiBold for Gradient Text */
+/* Fraunces Medium Italic for Gradient Text */
 @font-face {
   font-family: 'Fraunces';
-  src: url('https://files.mastersunion.link/uploads/21022025/v1/Fraunces_144ptSemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fraunces';
-  src: url('https://files.mastersunion.link/uploads/21022025/v1/Fraunces_144ptSemiBoldItalic.ttf') format('truetype');
-  font-weight: 600;
+  src: url('/fonts/Fraunces-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
@@ -140,7 +100,7 @@ All colors MUST be HSL.
   /* MU Gradient Text */
   .gradient-text {
     font-family: 'Fraunces', serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
     background: linear-gradient(102deg, hsl(var(--gradient-start)) 0%, hsl(var(--gradient-mid)) 50%, hsl(var(--gradient-end)) 100%);
     -webkit-background-clip: text;
